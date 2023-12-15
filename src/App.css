@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --Primary-color: hsl(272, 61%, 34%);
+    --Hover-color: hsl(282, 80%, 63%);  
+    --White-color: hsl(0, 0%, 100%);
+    --Black-color: hsl(0, 0%, 10%);
+    --Text-color: hsl(240, 1%, 48%);
+    --Background-color: hsl(0, 0%, 96%);
+    --Text-grey: rgb(190, 190, 190);
+    --Input-color: hsl(330, 12%, 97%);
+    --Deam-color: hsl(0, 0%, 93%);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .4rem 1.5rem;
+    background: var(--Primary-color);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--White-color);
+    font-weight: 500;
+}
+
+.btn:hover a{
+    color: var(--Hover-color);
+}
+
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle{
+    color: var(--Black-color);
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.secIntro p{
+    font-size: 15px;
+    color: var(--Text-color);
+    font-weight: 500;
+}
+
+img, video{
+    width: 100%;
+    height: auuto;
+}
+
+input{
+    font-size: 100%;
+}

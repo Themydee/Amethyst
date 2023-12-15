@@ -1,0 +1,114 @@
+:root{
+    --Primary-color: hsl(272, 61%, 34%);
+    --Hover-color: hsl(282, 80%, 63%);  
+    --White-color: hsl(0, 0%, 100%);
+    --Black-color: hsl(0, 0%, 10%);
+    --Text-color: hsl(240, 1%, 48%);
+    --Background-color: hsl(0, 0%, 96%);
+    --Text-grey: rgba(32, 30, 30, 0.596);
+    --Input-color: hsl(330, 12%, 97%);
+    --Deam-color: hsl(0, 0%, 93%);
+    --box-shadow: 0 2px 8px 2px rgba(178, 178, 178,0.334);
+
+}
+
+.ofeer{
+    margin-top: 10rem;
+
+    .secContainer{
+        .secHeader{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .textDiv{
+                .secTitle{
+                    color: var(--Black-color);
+                    line-height: 1.5rem;
+                    padding-bottom: .5rem;
+                }
+
+                p{
+                    font-size: 13px;
+                    color: var(--Text-color);
+                    font-weight: 500;
+                }
+            }
+
+            .iconsDiv{
+                gap: 0.5rem;
+
+                .icon{
+                    padding: .5rem;
+                    background: var(--Text-grey);
+                    border-radius: 50%;
+                    font-size: 2.5rem;
+
+                    &:hover{
+                        background: var(--Black-color);
+                        color: var(--White-color);
+                    }
+                }
+
+                .leftIcon{
+                    background: var(--Black-color);
+                    color: var(--White-color);
+                    &:hover{
+                        background: var(--Text-grey);
+                        color: var(--Black-color);
+                    }
+                }
+
+                .rightIcon{
+                    background: var(--Black-color);
+                    color: var(--White-color);
+                    &:hover{
+                        background: var(--Text-grey);
+                        color: var(--Black-color);
+                    }
+                }
+            }
+        }
+        
+
+        .mainContent{
+            padding: 2rem 0;
+            gap: 1rem;
+
+            .services{
+                overflow: hidden;
+                border-radius: 1rem;    
+                box-shadow: 0 2px 8px 2px rgba(178, 178, 178,0.045);
+
+                .servImage{
+                    height: 200px;
+                    width: 100%;
+                    position: relative; 
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+
+
+                        .addInfo{
+                            position: absolute;
+                            display: flex;
+                            align-items: flex-start;
+                            padding: 0;
+                            justify-content: center;
+                            flex-direction: column;
+                            background: linear-gradient(rgba(0,0,0,0.846), rgba(0,0,0,0.759));
+                            bottom: 0;
+                            width: 100%;
+                            height: 100%;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
