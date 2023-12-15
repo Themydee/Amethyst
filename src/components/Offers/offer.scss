@@ -81,7 +81,7 @@
                 box-shadow: 0 2px 8px 2px rgba(178, 178, 178,0.045);
 
                 .servImage{
-                    height: 200px;
+                    height: 299ox;
                     width: 100%;
                     position: relative; 
                     overflow: hidden;
@@ -96,15 +96,15 @@
                             position: absolute;
                             display: flex;
                             align-items: flex-start;
-                            padding: 0;
-                            // padding: 1rem 1.5rem;
+                            // padding: 0;
+                            padding: 1rem 1.5rem;
                             justify-content: center;
                             flex-direction: column;
                             background: linear-gradient(rgba(0,0,0,0.846), rgba(0,0,0,0.759));
                             bottom: 0;
                             width: 100%;
-                            // height: 100%;
-                            height: 0;
+                            height: 100%;
+                            // height: 0;
                             overflow: hidden;
 
                             h3{
@@ -139,6 +139,14 @@
 
                             }
 
+                        }
+                    }
+
+                    &:hover{
+                        .addInfo{
+                            overflow: visible;
+                            padding: 1rem 1.5rem;
+                            height: 100%;
                         }
                     }
                 }
@@ -187,13 +195,13 @@
                     }
                 }
 
-                &:hover{
-                    .addInfo{
-                        overflow: visible;
-                        padding: 1rem 1.5rem;
-                        height: 100%;
-                    }
-                }
+                // &:hover{
+                //     .addInfo{
+                //         overflow: visible;
+                //         padding: 1rem 1.5rem;
+                //         height: 100%;
+                //     }
+                // }
             }
 
         }
