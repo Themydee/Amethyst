@@ -2,7 +2,17 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <div>Info</div>
+    <section className='about section '>
+      <div className="secContainer">
+        <div className="title">
+          Why Amethyst?
+        </div>
+
+        <div className="mainContent container grid">
+          <div className="singleItem"></div>
+        </div>
+      </div>
+    </section>
   )
 }
 
