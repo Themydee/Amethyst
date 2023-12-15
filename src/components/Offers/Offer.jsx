@@ -5,6 +5,16 @@ import {BsArrowRightShort} from 'react-icons/bs'
 import {BsDot} from 'react-icons/bs'
 import img1 from '../../assets/bg.jpg'
 
+const Data = [
+  {
+    id: 1,
+    imgSrc: bg.jpg,
+    servName: 'Web Development',
+    servSubtitle: 'Lorem Lorem Lorem',
+    recommendation: 'Online '
+  }
+]
+
 const Offer = () => {
   return (
     <section className='ofeer section container'>
@@ -26,35 +36,42 @@ const Offer = () => {
         </div>
 
         <div className="mainContent grid">
-          <div className="services">
-            <div className="servImage">
-              <img src={img1} alt="Image Title" />
-                <div className="addInfo">
-                  <h3>Name of Service</h3>
-                  <p>Sort Description</p>
-
-                  <BsArrowRightShort  className='icon'/>
+          {
+            Data.map((id, imgSrc, servName, servSubtitle, recommendation)=> {
+              return(
+                <div className="services">
+                <div className="servImage">
+                  <img src={imgSrc} alt="Image Title" />
+                    <div className="addInfo">
+                      <h3>{servName}</h3>
+                     <p>{servSubtitle}</p>
+    
+                      <BsArrowRightShort  className='icon'/>
+                    </div>
                 </div>
-            </div>
-
-            <div className="servFooter">
-              <div className="number">
-                01
+    
+                <div className="servFooter">
+                  <div className="number">
+                    0{id}
+                  </div>
+    
+                  <div className="serText">
+                    <h6>
+                      {recommendation}
+                    </h6>
+                    <span className="flex">
+                      <span className="dot">
+                        <BsDot  className='icon'/>
+                        Dot
+                      </span>
+                    </span>
+                  </div>
+                </div>
               </div>
-
-              <div className="serText">
-                <h6>
-                  Lorem
-                </h6>
-                <span className="flex">
-                  <span className="dot">
-                    <BsDot  className='icon'/>
-                    Dot
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
+              )
+            })
+          }
+         
         </div>
       </div>
 

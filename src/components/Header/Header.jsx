@@ -14,9 +14,19 @@ const Header = () => {
       setActive('navBar')
   }
 
+  const[transparent, setTransparent] = useState('header');
+  const addBg =() =>{
+    if(window.scrollY >= 10){
+      setTransparent('header activeHeader')
+    } else{
+      setTransparent('header')
+    }
+  }
+
+  window.addEventListener('scroll', addBg)
   return (
     <section className='headerSection'>
-      <div className="header">
+      <div className={transparent}>
 
         <div className="logoDiv">
           <a href="#" className="logo">

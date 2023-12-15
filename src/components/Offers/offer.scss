@@ -97,14 +97,101 @@
                             display: flex;
                             align-items: flex-start;
                             padding: 0;
+                            // padding: 1rem 1.5rem;
                             justify-content: center;
                             flex-direction: column;
                             background: linear-gradient(rgba(0,0,0,0.846), rgba(0,0,0,0.759));
                             bottom: 0;
                             width: 100%;
-                            height: 100%;
+                            // height: 100%;
+                            height: 0;
                             overflow: hidden;
+
+                            h3{
+                                color: var(--White-color);
+                                font-weight: 600;
+                            }
+
+                            p{
+                                color: var(--White-color);
+                                opacity: .7;
+                                font-size: 13px;
+
+                            }
+
+                            .icon{
+                                position: absolute;
+                                right: 10px;
+                                bottom: 10px;
+                                padding: .5rem;
+                                background: var(--Primary-color);
+                                font-size: 2.5rem;
+                                border-radius: 50%;
+                                color: var(--White-color);
+                                border: 1px solid transparent;
+                                transition: .3s ease;
+
+                                &:hover{
+                                    background: var(--Black-color);
+                                    border: 1px solid var(--Primary-color);
+
+                                }
+
+                            }
+
                         }
+                    }
+                }
+
+                .servFooter{
+                    padding: 1rem;
+
+                    .number{
+                        font-size: 2rem;
+                        font-weight: 700;
+                        color: var(--Black-color);
+                        position: relative;
+                        width: max-content;
+
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            background: var(--Primary-color);
+                            top: 45%;
+                            right: -150%;
+                            height: 5px;
+                            width: 45px;
+                            border-radius: 1rem;
+                        }
+                    }
+
+                    .serText{
+                        justify-content: space-between;
+
+                        h6{
+                            color: var(--Black-color);
+                            font-size: 15px;
+                        }
+
+                        .flex{
+                            font-size: 16px;     
+                            font-weight: 600;
+                            align-items: flex-start;
+                            transform: translateY(5px);
+
+                            .icon{
+                                color: var(--Primary-color);
+
+                            }
+                        }
+                    }
+                }
+
+                &:hover{
+                    .addInfo{
+                        overflow: visible;
+                        padding: 1rem 1.5rem;
+                        height: 100%;
                     }
                 }
             }

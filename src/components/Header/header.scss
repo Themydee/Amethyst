@@ -8,6 +8,8 @@
     --Text-grey: rgb(190, 190, 190);
     --Input-color: hsl(330, 12%, 97%);
     --Deam-color: hsl(0, 0%, 93%);
+    --box-shadow: 0 2px 8px 2px rgba(178, 178, 178,0.334);
+
 }
 
 .headerSection{
@@ -130,5 +132,10 @@
                 }
             }
         }
+    }
+
+    .activeHeader{
+        background: var(--Text-color);
+        box-shadow: var(--box-shadow);
     }
 }
