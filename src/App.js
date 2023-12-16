@@ -1,8 +1,8 @@
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home"; 
 import Offer from "./components/Offers/Offer";
-// import Footer from "./components/Foot/Footer";
 import Info from "./components/Info/Info";
+import Footer from "./components/Foot/Footer";
 import "./App.css"
 
 
@@ -14,7 +14,7 @@ function App() {
         <Home />
         <Offer />
          <Info />
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }
