@@ -13,7 +13,7 @@
 }
 
 .ofeer{
-    margin-top: 10rem;
+    margin-top: 8rem;
 
     .secContainer{
         .secHeader{
@@ -207,3 +207,22 @@
         }
     }
 }
+
+
+@media screen and (min-width: 480px){
+    .ofeer{
+        margin-top: 10rem;
+    }
+}   
+
+@media screen and (min-width: 720px){
+    .ofeer{
+        margin-top: 7rem;
+    }
+}   
+
+@media screen and (min-width: 1024px){
+    .ofeer{
+        margin-top: 7rem;
+    }
+}   

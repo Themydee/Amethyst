@@ -140,3 +140,69 @@
         box-shadow: var(--box-shadow);
     }
 }
+
+@media screen and (min-width: 770px){
+    .headerSection{
+
+        
+        .toggleNavBar, .closeNavBar{
+            display: none;
+        }
+    
+        .header{
+            padding: 1.5rem 2rem ;
+
+            .logoDiv{
+                padding-right: 30px;
+                font-size: 10px;
+            }
+
+            .navBar{
+                .navLists{
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+
+                    .navItem{
+                        .navLink{
+                            color: var(--White-color);
+                            padding: .45rem;
+                            font-size: .9rem;
+                            font-weight: 400;
+
+                            &:hover{
+                                color: var(--Hover-color);
+                            }
+                        }
+                    }
+                    
+                   
+                    .btn{
+                        margin-left: 1rem;
+
+                        a{
+                            color: var(--White-color);
+                            font-weight: 500;
+                        }
+                    }
+
+                    .loginBtn{
+                        background: none;
+                        border: 1px solid var(--Primary-color);
+
+                        &:hover{
+                            background: var(--Primary-color);
+                            a{
+                                color: var(--White-color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}
+

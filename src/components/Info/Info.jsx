@@ -7,7 +7,7 @@ import img4 from '../../assets/years.jpg'
 
 const Info = () => {
   return (
-    <section className='about section '>
+    <section className='about section' >
       <div className="secContainer">
         <h3 className="title">
           Why Amethyst?

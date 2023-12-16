@@ -30,7 +30,7 @@ const Offer = () => {
               Our Services
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis, reiciendis adipisci tempore officiis error saepe dignissimos vitae corporis ratione?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur repellendus inventore fuga itaque non, ipsa ut sed quia quisquam?
             </p>
           </div>
 
