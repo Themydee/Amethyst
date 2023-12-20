@@ -4,6 +4,7 @@ import Offer from "./components/Offers/Offer";
 import Info from "./components/Info/Info";
 import Footer from "./components/Foot/Footer";
 import "./App.css"
+import Teams from "./components/Teams/Teams";
 
 
 
@@ -13,7 +14,8 @@ function App() {
         <Header />  
         <Home />
         <Offer />
-         <Info />
+        <Info />
+        <Teams />
         <Footer />
     </div>
   );

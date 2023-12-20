@@ -44,9 +44,9 @@ const Offer = () => {
           <div className="services">
             <div className="servImage">
               <img src={img1} alt="Image Title" />
-                {/* <div className="addInfo">
+                <div className="addInfo">
                   <BsArrowRightShort  className='icon'/>
-                </div> */}
+                </div>
             </div>
 
             <div className="servFooter">
