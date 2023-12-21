@@ -65,7 +65,7 @@ const Header = () => {
 
               <div className="headerBtns flex">
                 <button className='btn'>
-                  <a href="#">Our Shop</a>
+                  <a href="https://amethshop.brimble.app/" target='_blank'>Our Shop</a>
                 </button>
               </div>
             </ul>
