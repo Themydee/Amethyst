@@ -1,5 +1,9 @@
 import React from 'react'
 import './teams.scss'
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa"; 
+import { FaGithub } from "react-icons/fa";  
+import { FaFacebookF } from "react-icons/fa6";
 import ceo from '../../assets/CEO.svg'
 import thinker from '../../assets/thinker.svg'
 import { FaLinkedin } from "react-icons/fa";
@@ -8,6 +12,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const Teams = () => {
   return (
+<<<<<<< HEAD
     <section className='teams section container'>
         <div className="secContainer">
           <h3 className="title">
@@ -60,8 +65,38 @@ const Teams = () => {
                 </div>
               </div>
           </div>
+=======
+    <div className='main'>
+        <div className="profile-card">
+            <div className="img">
+                <img src={ceo} alt="ceo image" />
+            </div>
+            <div className="caption">
+                <h3>Themydee</h3>
+                <p>Full stack Developer</p>
+                <div className="socials">
+                    <a href="">
+                    <FaFacebookF  className='icon'/>
+                    </a>
+                </div>
+                <div className="socials">
+                    <a href="#">
+                    <FaInstagram  className="icon "/>
+                    </a>
+                </div>
+                <div className="socials">
+                    <a href="#">
+                    <FaTwitterSquare  className="icon "/>
+                    </a>
+                </div>
+                <div className="socials">
+                    <a href="#">
+                    <FaGithub className="icon "/>                    </a>
+                </div>
+            </div>
+>>>>>>> e9c4016adde769cb06465de29da8de9166395f00
         </div>
-    </section>
+    </div>
   )
 }
 
