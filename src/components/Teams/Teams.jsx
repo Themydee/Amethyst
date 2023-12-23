@@ -89,7 +89,8 @@ const Teams = () => {
                 </div>
                 <div className="socials">
                     <a href="#">
-                    <FaGithub className="icon "/>                    </a>
+                    <FaGithub className="icon "/>      
+                    </a>
                 </div>
             </div>
         </div>
