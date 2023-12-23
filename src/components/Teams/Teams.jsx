@@ -12,7 +12,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 const Teams = () => {
   return (
-<<<<<<< HEAD
     <section className='teams section container'>
         <div className="secContainer">
           <h3 className="title">
@@ -65,7 +64,6 @@ const Teams = () => {
                 </div>
               </div>
           </div>
-=======
     <div className='main'>
         <div className="profile-card">
             <div className="img">
@@ -94,7 +92,6 @@ const Teams = () => {
                     <FaGithub className="icon "/>                    </a>
                 </div>
             </div>
->>>>>>> e9c4016adde769cb06465de29da8de9166395f00
         </div>
     </div>
   )
